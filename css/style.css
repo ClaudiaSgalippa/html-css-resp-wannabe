@@ -130,11 +130,56 @@ img {
 
 /*Impostazione Tablet*/
 
- @media screen and (max-width:1140px) {
+@media screen and (max-width:1140px) {
     .container {
         max-width: 100%;
         margin: 0% auto;
     }
- }
+}
 
- /*Impostazione smartphonne*/
+/*Impostazione Smartphone*/
+
+@media screen and (max-width:480px) {
+    
+    .lessons .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps {
+        margin-bottom: 0%;
+    }
+
+    .steps .row {
+        flex-direction: column;
+        align-content: center;    
+    }
+
+    .steps .col {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .why-us {
+        padding-top: 70px;
+    }
+
+    body .why-us {
+        background-color: #222222;
+    }
+
+    .why-us .row {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .why-us .col {
+        width: 100%;
+        padding: 30px;
+    }
+
+}
