@@ -130,9 +130,11 @@ img {
 
 /*Impostazione Tablet*/
 
- @media screen and (min-width:768px) {
+ @media screen and (max-width:1140px) {
     .container {
         max-width: 100%;
         margin: 0% auto;
     }
  }
+
+ /*Impostazione smartphonne*/
