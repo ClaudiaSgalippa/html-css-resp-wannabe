@@ -132,7 +132,7 @@ img {
 
 @media screen and (max-width:1140px) {
     .container {
-        max-width: 100%;
+        width: 100%;
         margin: 0% auto;
     }
 }
@@ -166,6 +166,7 @@ img {
 
     .why-us {
         padding-top: 70px;
+        margin-bottom: 0%;
     }
 
     body .why-us {
